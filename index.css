@@ -1,0 +1,110 @@
+body {
+    background-image: linear-gradient( 181deg,  rgba(225,109,245,1) 6.9%, rgba(78,248,231,1) 112.8% );
+    background-attachment: fixed;
+    color: white;
+}
+@keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+section {
+    min-height: 93vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav  {
+    background-color: rgba(207, 97, 235, 0.72);
+    height: 7vh;
+}
+
+.jumbotron-fluid {
+    
+    margin:auto;
+    width: 100%;
+    background-image: radial-gradient( circle 978px at 1.8% 4%,  rgba(162,208,254,1) 0.1%, rgba(193,94,245,0.73) 100.2% );;
+    animation: fade-in 4s 0.5s forwards;
+}
+
+
+.display-4 {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:rgb(238, 55, 238);
+}
+
+.jumbotron-fluid .container ul li {
+    list-style-type: none;
+}
+
+.jumbotron-fluid .container h2 {
+    text-align: center;
+}
+
+.jumbotron-fluid .container h3 {
+    text-align: center;
+}
+
+.jumbotron-fluid .container img {
+   margin-left: 436px;;
+   margin-bottom: 20px;
+   
+}
+
+.lead {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+}
+
+#fav-albums {
+    margin-top: 150px;
+}
+
+.album-container {
+   margin-top: 80px;
+   padding: 20px;
+   position: absolute;
+}
+
+
+
+.badge {
+    position: relative;
+    top: -149px;
+    left: 0px;
+    z-index: 1;
+    background-color:rgba(201, 94, 201, 0.767)
+}
+
+table tr:nth-child(2n) {
+    background-color: rgba(233, 121, 233, 0.733);
+}
+
+thead tr th {
+    background-color: rgba(37, 210, 233, 0.733);
+}
+
+#best-album-ever {
+    margin-top: 100px;
+}
+
+footer li {
+    list-style-type: none;
+    color:rgba(205, 113, 233, 0.897); 
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+footer {
+    background-color: rgba(68, 224, 226, 0.788);
+}
+
