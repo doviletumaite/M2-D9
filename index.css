@@ -99,6 +99,15 @@ thead tr th {
     margin-top: 100px;
 }
 
+.container-reviews {
+    position: relative;
+}
+
+.container-reviews img {
+    position: absolute;
+
+}
+
 footer li {
     list-style-type: none;
     color:rgba(205, 113, 233, 0.897); 
