@@ -75,7 +75,9 @@ nav  {
    position: absolute;
 }
 
-
+.album-wall {
+    margin-top: 100px;
+}
 
 .badge {
     position: relative;
